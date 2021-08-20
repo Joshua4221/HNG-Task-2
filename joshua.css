@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+}
+.header{
+    width: 80%; 
+    margin:30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header1{
+    float: left; 
+    font-size: 32px;
+    color: #5e5e5e;
+}
+.header2{
+    list-style-type: none;
+    float: right; 
+    color: #5e5e5e;
+    font-weight: bolder;
+}
+.header3{
+    list-style-type: none;
+    color: #5e5e5e;
+    font-weight: bolder;
+}
+li{
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+}
+.header-body{
+    width: 80%; 
+    margin:30px auto;
+}
+.container-header{
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    width: 100%; 
+    height: 250px; 
+    background-color: #03498f;
+    padding: 20dp;
+}
+.container-img{
+    float: left; 
+    margin-top: 20px; 
+    margin-left: 20px;
+}
+img{
+    border-radius: 50%;
+    border: 8px solid #fff;
+}
+.container-body{
+    float: left; 
+    color: #fff; 
+    margin-left: 120px;
+    margin-top: 60px;
+}
+.container-main{
+    font-size: 42px; 
+    font-weight: bold;
+}
+.container-paragraph{
+    font-size: 18px; 
+    margin-top: 12px;
+}
+.container-button{
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 30px; 
+    border: none;
+}
+.container-button1:hover{
+    padding: 12px;
+}
+.container-button2:hover{
+    padding: 12px;
+}
+.margin{
+    margin-top: 30px;
+}
+.me{
+    font-size: 32px; 
+    color: #5e5e5e;
+}
+.me-paragraph{
+    font-size: 18px; 
+    color: #3f3e3e; 
+    line-height: 26px; 
+    margin-top: 10px;
+}
+.table{
+    padding-left: 50px; 
+    font-size: large; 
+    width: 100%;
+}
+.table tr td{
+    padding-top: 8px;
+}
+.skills{
+    margin-top: 30px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.skills-column{
+    margin-top: 8px;
+    width: 100%; 
+    background-color: #f1f1f1; 
+    border-radius: 8px;
+}
+.skills-row1{
+    background-color: #52a2ecde; 
+    padding: 10px; 
+    border-radius: 8px;
+}
+.skills-row2{
+    background-color: #52daecde; 
+    padding: 10px; 
+    border-radius: 8px;
+}
+.column-header{
+    margin-top: 12px;
+}
+
