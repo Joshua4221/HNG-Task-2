@@ -56,8 +56,6 @@ a:hover{
     float: left; 
     margin-top: 20px; 
     margin-left: 20px;
-}
-img{
     border-radius: 50%;
     border: 8px solid #fff;
 }
@@ -119,12 +117,12 @@ img{
     border-radius: 8px;
 }
 .skills-row1{
-    background-color: #52a2ecde; 
+    background-color: #03498f; 
     padding: 10px; 
     border-radius: 8px;
 }
 .skills-row2{
-    background-color: #52daecde; 
+    background-color: #03498f; 
     padding: 10px; 
     border-radius: 8px;
 }
