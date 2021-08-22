@@ -24,12 +24,14 @@
     color: #5e5e5e;
     font-weight: bolder;
 }
-.header .icon {
+.icon {
     cursor: pointer;
     float: right;
-    margin-top: 10px;
     color: #5e5e5e;
     display: none;
+}
+.icon:hover{
+    color: #1d28c0;
 }
 .header3{
     list-style-type: none;

@@ -112,7 +112,7 @@
             .header{
                 background-color: #f5f7fa;
             }
-            .header .icon {
+            .icon {
                 float: right;
                 display: block; 
                 cursor: pointer;
@@ -121,8 +121,6 @@
                 width: 100%;
                 height: 25vh;
                 margin-top: 0px;
-                top: 30px;
-                left: 0px;
                 position: fixed;
                 text-align: center;
             }       
@@ -149,8 +147,8 @@
             .header2.responsive {position: relative;}
             .header2.responsive .icon {
                 position: absolute;
-                right: 0;
-                top: 0;
+                right: 20;
+                top: 12px;
             }
             .header2.responsive a {
                 float: none;
@@ -170,20 +168,12 @@
             }
             
             .header .header2 a{display: none;}
-            .header .icon {
+            .icon {
                 float: right;
                 display: block;
                 cursor: pointer;
             } 
-            .header2{
-                width: 100%;
-                height: 35vh;
-                margin-top: 0px;
-                top: 30px;
-                left: 0;
-                position: fixed;
-                text-align: center;
-            }   
+            
 
             .container-header{
                 width: 100%;
@@ -199,7 +189,13 @@
                 text-align: center;
                 margin-left: 0px;
             }
-
+            .header2{
+                width: 100%;
+                height: 30vh;
+                margin-top: 0px;
+                position: fixed;
+                text-align: center;
+            }   
             .hng-main{
                 margin-right: 0px;
                 text-align: center;
@@ -223,11 +219,12 @@
             }
         }
         @media screen and (max-width: 768px) {
+            
             .header2.responsive {position: relative;}
             .header2.responsive .icon {
                 position: absolute;
-                right: 0;
-                top: 0;
+                right: 20;
+                top: 12px;
             }
             .header2.responsive a {
                 float: none;
@@ -247,8 +244,8 @@
             <div style="width: 80%;margin: auto;padding: 12px 0;">
                 <img src="image/king-letter-j-logo-icon-design-vector-22768083.jpg" alt="" width="35" height="35" style="align-items: center; margin-top: 5px;">
                 
-                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fas fa-bars"></i>
+                  <a href="javascript:void(0);" class="icon" onclick="myFunction()" >
+                    <i class="fas fa-bars" style="margin-top: 10px;"></i>
                   </a>
                 <div class="header2" id="myTopnav" style="font-size: 20px;">
                     <a href="#about">About</a>
