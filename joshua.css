@@ -13,7 +13,6 @@
 }
 .header1{
     background-color: #f5f7fa;
-    float: left; 
     font-size: 32px;
     color: #5e5e5e;
 }
@@ -60,8 +59,8 @@
 }
 
 .header-body1{
-    width: 60%; 
-    margin:30px auto;
+    width: 70%; 
+    margin: auto;
 }
 .header-body{
     width: 80%; 
