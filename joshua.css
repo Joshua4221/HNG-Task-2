@@ -5,13 +5,14 @@
 }
 
 .header{
-    width: 80%; 
-    margin:30px auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #f5f7fa;
+    font-family:  'Roboto-Bold', sans-serif;
 }
 .header1{
+    background-color: #f5f7fa;
     float: left; 
     font-size: 32px;
     color: #5e5e5e;
@@ -19,57 +20,76 @@
 .header2{
     list-style-type: none;
     float: right; 
+    margin-top: 10px;
     color: #5e5e5e;
     font-weight: bolder;
+}
+.header .icon {
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+    color: #5e5e5e;
+    display: none;
 }
 .header3{
     list-style-type: none;
     color: #5e5e5e;
     font-weight: bolder;
 }
-.li{
-    float: left;
+
+.header2 a{
+    text-align: center;
+    text-decoration: none;
+    color: #5e5e5e;
     padding: 10px;
     cursor: pointer;
 }
-a{
+.all{
     text-decoration: none;
-    color: #5e5e5e;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
 }
-a:hover{
-    color:#03498f;
+.header2 a:hover{
+    color:#1d28c0;
+}
+.all:hover{
+    color:#b6b1d4;
 }
 
+.header-body1{
+    width: 60%; 
+    margin:30px auto;
+}
 .header-body{
     width: 80%; 
     margin:30px auto;
 }
 .container-header{
-    border-top-right-radius: 12px;
-    border-top-left-radius: 12px;
     width: 100%; 
-    height: 250px; 
-    background-color: #03498f;
+    height: 550px; 
+    background-color: #1d28c0;
     padding: 20dp;
 }
 .container-img{
-    float: left; 
-    margin-top: 20px; 
-    margin-left: 20px;
-    border-radius: 50%;
-    border: 8px solid #fff;
+    margin-top: 40px; 
+    margin-left: 60px;
+    border-radius: 8px;
+    border: 4px solid #fff;
 }
 .container-body{
-    float: left; 
+    width: 330px;
     color: #fff; 
-    margin-left: 95px;
-    margin-top: 60px;
+    margin-left: 45px;
+    margin-top: 35px;
 }
 .container-main{
+    text-align: center;
     font-size: 42px; 
     font-weight: bold;
 }
 .container-paragraph{
+    text-align: center;
     font-size: 18px; 
     margin-top: 12px;
 }
@@ -90,20 +110,19 @@ a:hover{
 }
 .me{
     font-size: 32px; 
-    color: #5e5e5e;
 }
 .me-paragraph{
     font-size: 18px; 
-    color: #3f3e3e; 
     line-height: 26px; 
     margin-top: 10px;
+    line-height: 30px;
 }
 .table{
-    padding-left: 50px; 
     font-size: large; 
     width: 100%;
 }
 .table tr td{
+    height: 50px;
     padding-top: 8px;
 }
 .skills{
@@ -111,42 +130,39 @@ a:hover{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 .skills-column{
-    margin-top: 8px;
+    margin-top: 6px;
     width: 100%; 
     background-color: #f1f1f1; 
     border-radius: 8px;
 }
 .skills-row1{
-    background-color: #03498f; 
-    padding: 10px; 
-    border-radius: 8px;
-}
-.skills-row2{
-    background-color: #03498f; 
-    padding: 10px; 
+    background-color: #1d28c0; 
+    padding: 8px; 
     border-radius: 8px;
 }
 .column-header{
-    margin-top: 12px;
+    margin-top: 24px;
 }
 .edu{
     border: 1px solid #dbdbdb; 
-    border-left: 4px solid #03498f;
+    border-left: 4px solid #1d28c0;
     border-radius: 4px;
     padding: 30px; 
     margin-bottom: 20px;
+    
 }
 .edu-main{
+    padding-top: 50px;
     width: 90%; 
     margin:30px auto; 
-    color: #5e5e5e; 
+    color: #000; 
 }
 .edu-inline{
     font-size: 16px; 
     font-weight: lighter;
 }
 .footer{
+    background-color: #1d28c0;
     text-align: center; 
-    margin-bottom: 50px; 
-    color: #5e5e5e;
+    color: #fff;
 }
